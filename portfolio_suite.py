@@ -226,7 +226,6 @@ def main_suite_runtime():
         print(f"  [{COLOR_CYAN}1{COLOR_RESET}] Launch Real-Time Stock Portfolio Tracker Engine")
         print(f"  [{COLOR_YELLOW}2{COLOR_RESET}] Launch Terminal Hangman Game Engine Instance")                 
         print(f"  [{COLOR_RED}3{COLOR_RESET}] Safely Close Core Session & Terminate Runtimes")
-        print(f"  [{COLOR_RED}Q{COLOR_RESET}] Exit CodeAlpha Suite")   
         print("-" * 60)
         user_selection = input("Enter System Option Selection (1-3): ").strip().upper()
         if user_selection == "1":
